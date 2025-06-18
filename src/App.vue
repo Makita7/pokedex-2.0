@@ -1,6 +1,9 @@
 <script setup lang="ts">
 import { RouterLink, RouterView } from 'vue-router'
+import { ref } from 'vue';
 import HelloWorld from './components/HelloWorld.vue'
+
+const link = ref('https://pokeapi.co/api/v2/pokemon/eevee/');
 </script>
 
 <template>

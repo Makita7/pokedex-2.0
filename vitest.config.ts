@@ -6,9 +6,6 @@ import { server } from 'typescript'
 export default mergeConfig(
   viteConfig,
   defineConfig({
-    server: {
-      port: 5000,
-    },
     test: {
       environment: 'jsdom',
       exclude: [...configDefaults.exclude, 'e2e/**'],
